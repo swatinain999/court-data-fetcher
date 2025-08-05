@@ -31,5 +31,17 @@ Due to live site restrictions & CAPTCHA, scraping logic is demonstrated using a 
 
 This project structure is ready to submit and fulfills all task requirements.
 
+
+### CAPTCHA Handling Strategy
+The chosen court website (Delhi High Court / [Your Court]) implements CAPTCHA on search requests.
+
+**Approach Implemented:**
+- For this project, manual CAPTCHA solving is used.  
+- The program prompts the user to open the court website, solve the CAPTCHA manually, and then paste the session cookie into a config file.  
+- Alternatively, scraping was tested on pages without CAPTCHA (like order/judgment PDFs), which do not require solving a CAPTCHA.
+
+**Future Work:**
+- Integrate an automated CAPTCHA-solving service (2Captcha, Anti-Captcha) if allowed.
+
 ## Author
 Swati Nain
